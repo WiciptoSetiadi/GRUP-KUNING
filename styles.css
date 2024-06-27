@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffcc; /* Warna latar belakang kuning */
+    min-height: 100vh;
 }
 
 header {
@@ -70,10 +71,13 @@ footer {
     background-color: #4CAF50;
     color: white;
     text-align: center;
-    padding: 1rem;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+footer p {
+    padding: 1rem;
 }
 
 ul {
